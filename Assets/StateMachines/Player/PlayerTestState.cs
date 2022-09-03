@@ -16,13 +16,9 @@ public class PlayerTestState : PlayerBaseState
 
     public override void Tick(float deltaTime)
     {
-        timer =- deltaTime;
-        Debug.Log(timer);
-        if (timer <= 0)
-        {
-            StateMachine.SwitchState(new PlayerTestState(StateMachine));
-        }
 
+        Debug.Log(timer);
+        
     }
 
     public override void Exit()

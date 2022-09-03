@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerStateMachine : StateMachine
 {
-    private void State()
+    private void Start()
     {
         SwitchState(new PlayerTestState(this));
     }
