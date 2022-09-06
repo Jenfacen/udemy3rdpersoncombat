@@ -12,7 +12,6 @@ public class PlayerTestState : PlayerBaseState
     public override void Enter()
     {
         Debug.Log("Enter");
-        Debug.Log("Test");
     }
 
     public override void Tick(float deltaTime)
